@@ -1,3 +1,38 @@
-#navbar{
-	background-color: #b0c4de;
-}
+#menu {
+		display:table;
+		width:100%;
+		border-collapse:collapse;
+		border:none;
+		height: 35px;
+		font-size: 16px;
+		font-family:Geneva, sans-serif;
+		font-weight: bold;
+		text-align: center;
+		background-color:#FF7F50;
+		border-radius: 8px;
+		z-index:99;
+	}
+	
+	#menu ul {
+	display: table-row;
+	}
+	
+
+	#menu li {
+	display: table-cell;
+	margin:0;
+	}
+	
+
+	#menu a {
+		text-decoration: none;
+		color:black;
+		padding: 8px 8px 8px 8px;
+	}
+	
+	#menu a:hover {
+    color: #F90;
+    background-color: #FFF;
+	display: block;
+	}
+
