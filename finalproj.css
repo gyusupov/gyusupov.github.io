@@ -1,3 +1,12 @@
+
+#header{
+		background-color:#1F7373;
+		color:#FEFFFF;
+		text-align:center;
+		padding:5px; 
+		
+	}
+	
 #menu {
 		display:table;
 		width:100%;
@@ -33,6 +42,5 @@
 	#menu a:hover {
     color: #F90;
     background-color: #FFF;
-	display: block;
 	}
 
