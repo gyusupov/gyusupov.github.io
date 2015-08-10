@@ -1,0 +1,12 @@
+applications:
+- services:
+  - Personality Insights GY-MonitoringAndAnalytics
+  - gifts-personality_insights
+  disk_quota: 1024M
+  host: gifts
+  name: gifts
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
