@@ -2,6 +2,7 @@
 <html>
 
 	<head>
+			
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 			<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -12,42 +13,55 @@
 	</head>
 
 <body>
-		<div data-role="page" id="Home">
+		<div data-role="page1" id="Home">
 		  <div data-role="header">
 			
 			<div id = "header">
 			<h1>GIFTS</h1>
 			</div>
 
-			<div id="menu">
-				<ul>
-				<li><a href = "#page1">Home</a></li>
-				<li><a href = "#page2">About Us</a></li>
-				<li><a href= "#page3">Our Project</a></li>
-				</ul>
-			</div>
+			<div data-role="content">
+				
+				<p><a href="#aboutus">ABOUT US</a></p> <!--calls to a new page-->
+			</div> <!-- /content -->
 
 			
 			<div id="personalityEntry" class="panel panel-default action box">
+				<form action="finalproj.js">
+				What is your twitter screen name?:<br>
+				<input type="text" name="screen_name">
+				<br><br>
+				<button onclick="myFunction()">Submit</button>
+				</form>
+
+				<a class="twitter-timeline" href="https://twitter.com/xrachelxsmith" data-widget-id="631160817937969152">Tweets by @xrachelxsmith</a>
+
+
 				
-				<h3 data-toggle="collapse" href="#pasteCorpus" aria-expanded="false" aria-controls="school" class="toggle">Let&rsquo;s get to know your child&rsquo;s personality.
+				<!--<h3 data-toggle="collapse" href="#pasteCorpus" aria-expanded="false" aria-controls="school" class="toggle">Let&rsquo;s get to know your child&rsquo;s personality.
 				</h3>
 
 				<div id="pasteCorpus" class="panel-collapse collapse in well">
 					<form method="post" action="/student/submit" class="jobForm form-horizontal">
 						<fieldset>
 							<div class="form-group row">
-								<label for="labelfield" class="col-lg-3 col-xs-3">Tweets go below. </label>
+								<label for="labelfield" class="col-lg-3 col-xs-3">What is your twitter screen name? </label>
 								<div class="col-lg-9 col-xs-9">
 									<textarea type="text" name="studentSample" value="" required="true" class="form-control"></textarea>
-									<p>
+<<<<<<< HEAD
+									<!--<p>
+										<a href="/samples/" target="_new">Doing a demo? Try it with a sample piece of writing...</a>
+									</p>-->
+<!--=======-->
+									<!--<p>
 										<a href="/samples/" target="_new">Copy a few tweets to find the right gift for someone!</a>
 									</p>
+>>>>>>> origin/master
 								</div>
 							</div>
 							<div class="form-group row">
 								<div class="col-lg-3 col-lg-push-9 col-xs-4">
-									<input type="submit" value="Analyse" class="btn btn-block">
+									<input type="submit" value="Analyze" class="btn btn-block">
 								</div>
 							</div>
 							<div class="form-group row">
@@ -56,15 +70,30 @@
 							</div>
 						</fieldset>
 					</form>
-				</div>
+				</div>-->
 			</div>
 			
 		  </div>
 		  
-		  <div data-role="main" class="ui-content">
-		</img>
-		  </div>
 		</div> 
+		
+		<div data-role="aboutus" id="aboutus"> <!--second page-->
+
+			<div data-role="header">
+			</div><!-- /header -->
+
+			<div data-role="content">
+				<p id="about">We created this website during the summer while participating in the Girls Who Code Summer Immersion program. We hope you enjoy!</p>
+				<p><a href="#page1">Back to Top</a></p>
+			
+			</div><!-- /content -->
+
+			<!--<div data-role="footer">
+				<h1>Page Footer</h1>
+			</div><!-- /footer -->
+			
+		</div><!-- /page -->
+		
 
 </body>
 

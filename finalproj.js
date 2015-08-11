@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 POST /oauth/request_token HTTP/1.1
 User-Agent: themattharris' HTTP Client
 Host: api.twitter.com
@@ -10,3 +11,10 @@ Authorization:
               oauth_signature_method="HMAC-SHA1",
               oauth_timestamp="1318467427",
               oauth_version="1.0"
+=======
+function myFunction() {
+    alert("Hello! I am an alert box!");
+}
+
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+>>>>>>> origin/master
