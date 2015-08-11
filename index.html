@@ -12,20 +12,17 @@
 	</head>
 
 <body>
-		<div data-role="page" id="Home">
+		<div data-role="page1" id="Home">
 		  <div data-role="header">
 			
 			<div id = "header">
 			<h1>GIFTS</h1>
 			</div>
 
-			<div id="menu">
-				<ul>
-				<li><a href = "#page1">Home</a></li>
-				<li><a href = "#page2">About Us</a></li>
-				<li><a href= "#page3">Our Project</a></li>
-				</ul>
-			</div>
+			<div data-role="content">
+				
+				<p><a href="#aboutus">ABOUT US</a></p> <!--calls to a new page-->
+			</div> <!-- /content -->
 
 			
 			<div id="personalityEntry" class="panel panel-default action box">
@@ -61,10 +58,25 @@
 			
 		  </div>
 		  
-		  <div data-role="main" class="ui-content">
-		</img>
-		  </div>
 		</div> 
+		
+		<div data-role="aboutus" id="aboutus"> <!--second page-->
+
+			<div data-role="header">
+			</div><!-- /header -->
+
+			<div data-role="content">
+				<p id="about">We created this website during the summer while participating in the Girls Who Code Summer Immersion program. We hope you enjoy!</p>
+				<p><a href="#page1">Back to Top</a></p>
+			
+			</div><!-- /content -->
+
+			<!--<div data-role="footer">
+				<h1>Page Footer</h1>
+			</div><!-- /footer -->
+			
+		</div><!-- /page -->
+		
 
 </body>
 
