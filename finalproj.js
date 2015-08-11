@@ -1,40 +1,5 @@
-$('.analysis-btn').click(function(){
-  $('.analysis-btn').blur();
+function myFunction() {
+    alert("Hello! I am an alert box!");
+}
 
-  $loading.show();
-  $error.hide();
-  $traits.hide();
-  $results.hide();
-
-  $.ajax({
-    type: 'POST',
-    data: {
-      text: $content.val(),
-      language: language
-    },
-    url: '/',
-    dataType: 'json',
-    success: function(response) {
-      $loading.hide();
-
-      if (response.error) {
-        showError(response.error);
-      } else {
-        $results.show();
-        showTraits(response);
-        showTextSummary(response);
-        showVizualization(response);
-      }
-
-    },
-    error: function(xhr) {
-      $loading.hide();
-
-      var error;
-      try {
-        error = JSON.parse(xhr.responseText || {});
-      } catch(e) {}
-      showError(error.error || error);
-    }
-  });
-});
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
