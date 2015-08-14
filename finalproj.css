@@ -8,7 +8,11 @@
 		
 	}*/
 	
+<<<<<<< Updated upstream
 
+=======
+	
+>>>>>>> Stashed changes
 #nav {
 	display:table; margin:0 auto;
 	}
@@ -21,7 +25,13 @@ body
 {
    background: #f4f1e5;
    color: #000000;
-   font-family: helvetica, sans-serif;
+   font-family: 'WebFont', Arial, sans-serif;
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+ 
 }	
 ul li {
     float: left;
