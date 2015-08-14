@@ -8,11 +8,23 @@
 		
 	}*/
 	
-<<<<<<< Updated upstream
-
-=======
 	
->>>>>>> Stashed changes
+
+#cassie{
+    width:33%;
+    float:left;
+}
+
+#ashley{
+    width:33%;
+    display: inline;
+}
+
+#gaby{
+    width:33%;
+    float: right;
+}
+
 #nav {
 	display:table; margin:0 auto;
 	}
