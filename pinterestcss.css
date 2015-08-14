@@ -16,7 +16,13 @@
 	column-gap: 15px;
 	column-fill: auto;
 }
-
+body {
+	background-color: yellow;
+   background: #f4f1e5;
+   background-image: url(silver.jpg);
+   color: #000000;
+   font-family: helvetica, sans-serif;
+}
 .pin {
 
 background-image: url("lavender.jpg");

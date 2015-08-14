@@ -8,6 +8,7 @@
 		
 	}*/
 	
+<<<<<<< HEAD
 #cassie{
     width:33%;
     float:left;
@@ -22,6 +23,9 @@
     width:33%;
     float: right;
 }
+=======
+
+>>>>>>> origin/master
 #nav {
 	display:table; margin:0 auto;
 	}
@@ -30,7 +34,8 @@
    margin: 0;
 }
 
-body {
+body 
+{
    background: #f4f1e5;
    color: #000000;
    font-family: helvetica, sans-serif;
