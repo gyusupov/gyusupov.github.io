@@ -84,42 +84,16 @@ li a:hover {
     -o-transform: rotate(10deg) scale(1.2);
 }	
 	
-/*#menu {
-		display:table;
-		width:100%;
-		border-collapse:collapse;
-		border:none;
-		height: 35px;
-		font-size: 16px;
-		font-family:Geneva, sans-serif;
-		font-weight: bold;
-		text-align: center;
-		background-color:#FF7F50;
-		border-radius: 8px;
-		z-index:99;
-	}
 	
-	#menu ul {
-	display: table-row;
-	}
+#giver{
 	
-
-	#menu li {
-	display: table-cell;
-	margin:0;
-	}
+    width: 700px;
+    padding: 100px;
+    border: 100px;
+    margin: 70px;
+	color: #ff3399;
+}	
 	
-
-	#menu a {
-		text-decoration: none;
-		color:black;
-		padding: 8px 8px 8px 8px;
-	}
-	
-	#menu a:hover {
-    color: #F90;
-    background-color: #FFF;
-	}
 
 	#about{
 		font-size: 30px;
