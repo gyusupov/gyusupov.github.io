@@ -33,7 +33,7 @@
    margin: 0;
 }
 
-body 
+/*body 
 {
    background: #f4f1e5;
    color: #000000;
@@ -44,7 +44,7 @@ body
 	     url('WebFont.ttf') format('truetype'),
 	     url('WebFont.svg#webfont') format('svg');
  
-}	
+}	*/
 ul li {
     float: left;
     list-style: none;
@@ -110,12 +110,39 @@ li a:hover {
 	
 #giver{
 	
-    width: 700px;
-    padding: 100px;
+	font-style: italic;
+	color: white;
+	/*width: 1000px;*/
+    padding: 20px;
     border: 100px;
     margin: 70px;
-}	
 	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 4em;
+	
+}	
+
+#text1{
+	text-align: left;
+	font-size: 25px;
+}
+#text2{
+	text-align: center;
+	font-size: 30px;	
+	color: #ff99ff;
+}
+#text3{
+	text-align: left;
+	font-size: 25px;
+
+}
+#text4{
+	text-align: right;
+	font-size: 25px;
+}
+
+
+
 
 	#about{
 		font-size: 30px;
