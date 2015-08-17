@@ -8,39 +8,44 @@ var numChoi = 3;
 // Insert number of questions displayed in answer area
 var answers = new Array(4);
 
-// Insert answers to questions
+/* Insert answers to questions
 answers[0] = "Cascading Style Sheets";
 answers[1] = "Dynamic HTML";
 answers[2] = "Netscape";
-answers[3] = "Common Gateway Interface";
-//Hello! this is Ashley!
+answers[3] = "Common Gateway Interface";*/
+
 
 // Do not change anything below here ... /*
-function getScore(form) 
+function getResult(form) 
 {
-var score = 0;
-var currElt;
-var selection;
-for (i=0; i<numQues; i++) {
-	currElt = i*numChoi;
-	for (j=0; j<numChoi; j++) {
-	selection = form.elements[currElt + j];
-		if (selection != null && selection.checked) {
-			var variable = selection.value;
-			console.log(variable);
-			if (selection.value == ) 
-			{
-			  score++;
-			  break;
-			}
+	var answers = [];
+	var currElt;
+	var selection;
+	for (i=0; i<numQues; i++) 
+	{
+		currElt = i*numChoi;
+		for (j=0; j<numChoi; j++) 
+		{
+			selection = form.elements[currElt + j];
+				if (selection != null && selection.checked) 
+				{
+					console.log(selection.value);
+					answers.push(selection.value);
+				}
 		}
 	}
+	console.log(answers);
+	if (answers[0] == "large" && answers[1]== "dinner" && answers[4] == "team") 
+	{
+		
+	}
 }
-score = Math.round(score/numQues*100);
+score = "alert"
+/*Math.round(score/numQues*100);
 form.percentage.value = score + "%";
 var correctAnswers = "";
 for (i=1; i<=numQues; i++) {
 	correctAnswers += i + ". " + answers[i-1] + "\r\n";
 }
 form.solutions.value = correctAnswers;
-}
+}*/
