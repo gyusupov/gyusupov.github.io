@@ -16,6 +16,7 @@ function getResult(form)
 	var answers = [];
 	var currElt;
 	var selection;
+	var output;
 	for (i=0; i<numQues; i++) 
 	{
 		currElt = i*numChoi;
@@ -33,31 +34,30 @@ function getResult(form)
 	if (answers[0] == "large" || answers[1]== "dinner" || answers[3] == "team") 
 	{
 		//outgoing
+		output = "Outgoing, ";
 	}
 	if (answers[0] == "few" || answers[1]== "stay" || answers[3] == "alone") 
 	{
 		//shy
+		output = output + "Shy ";
 	}
-	if (answers[0] == "few" || answers[1]== "stay" || answers[3] == "alone" || answers[4] == "act") 
+	if (answers[4] == "stressed") 
 	{
-		//shy and easily stressed
+		output = output + "Stressed, ";
 	}
 	if (answers[6] == "rules" || answers[8] == "neat") 
 	{
-		//organized, practical, likes structure
+		output = output + "Organized, Practical, Likes structure"; 
 	}
 	if (answers[5] == "DIY" || answers[7]== "museum") 
 	{
-		//artistic
+		output = output + "Artistic, ";
 	}
-	
+	if (answers[1] == "walk" || answers[1]== "dinner" || answers[4]=="act" || answers[7]=="both") 
+	{
+		output = output + "Adventurous, ";
+	}
+
+form.solutions.value = output;
+console.log("output");
 }
-score = 
-/*Math.round(score/numQues*100);
-form.percentage.value = score + "%";
-var correctAnswers = "";
-for (i=1; i<=numQues; i++) {
-	correctAnswers += i + ". " + answers[i-1] + "\r\n";
-}
-form.solutions.value = correctAnswers;
-}*/
