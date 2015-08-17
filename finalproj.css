@@ -1,7 +1,6 @@
-
-/*#header{
+header{
 		background-color:#ff0066;
-		color:#FEFFFF;
+		color:#FFFFFF;
 		text-align:center;
 		padding:20px; 
 		font-size: 20px;
@@ -49,11 +48,11 @@ ul li {
     float: left;
     list-style: none;
     margin-right: 1em; 
-	color: #000000;
+	color: white;
 }
  
 li a {
-    color: #000000;
+    color: white;
     text-decoration: none;
     float: left;
     font-size: 25px;
@@ -61,7 +60,7 @@ li a {
 }
  
 li a:hover {
-    color: #000000;
+    color: white;
 }	
 
 li a:hover {
@@ -146,7 +145,7 @@ li a:hover {
 
 	#about{
 		font-size: 30px;
-		color: #ff0066;
+		color: white;
 		font-family:Geneva, sans-serif;
 		font-weight: bold;
 		text-align: center;
