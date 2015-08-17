@@ -8,11 +8,6 @@ var numChoi = 3;
 // Insert number of questions displayed in answer area
 var answers = new Array(4);
 
-/* Insert answers to questions
-answers[0] = "Cascading Style Sheets";
-answers[1] = "Dynamic HTML";
-answers[2] = "Netscape";
-answers[3] = "Common Gateway Interface";*/
 
 
 // Do not change anything below here ... /*
