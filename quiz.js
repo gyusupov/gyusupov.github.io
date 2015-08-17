@@ -15,18 +15,20 @@ answers[2] = "Netscape";
 answers[3] = "Common Gateway Interface";
 
 // Do not change anything below here ... /*
-function getScore(form) {
+function getScore(form) 
+{
 var score = 0;
 var currElt;
-var currSelection;
+var selection;
 for (i=0; i<numQues; i++) {
 	currElt = i*numChoi;
 	for (j=0; j<numChoi; j++) {
-	currSelection = form.elements[currElt + j];
-		if (currSelection != null && currSelection.checked) {
-			var variable = currSelection.value;
+	selection = form.elements[currElt + j];
+		if (selection != null && selection.checked) {
+			var variable = selection.value;
 			console.log(variable);
-			if (currSelection.value == answers[i]) {
+			if (selection.value == ) 
+			{
 			  score++;
 			  break;
 			}
