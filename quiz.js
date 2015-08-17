@@ -35,12 +35,29 @@ function getResult(form)
 		}
 	}
 	console.log(answers);
-	if (answers[0] == "large" && answers[1]== "dinner" && answers[4] == "team") 
+	if (answers[0] == "large" || answers[1]== "dinner" || answers[3] == "team") 
 	{
-		
+		//outgoing
 	}
+	if (answers[0] == "few" || answers[1]== "stay" || answers[3] == "alone") 
+	{
+		//shy
+	}
+	if (answers[0] == "few" || answers[1]== "stay" || answers[3] == "alone" || answers[4] == "act") 
+	{
+		//shy and easily stressed
+	}
+	if (answers[6] == "rules" || answers[8] == "neat") 
+	{
+		//organized, practical, likes structure
+	}
+	if (answers[5] == "DIY" || answers[7]== "museum") 
+	{
+		//artistic
+	}
+	
 }
-score = "alert"
+score = 
 /*Math.round(score/numQues*100);
 form.percentage.value = score + "%";
 var correctAnswers = "";
