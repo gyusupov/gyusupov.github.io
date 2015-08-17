@@ -13,6 +13,7 @@ answers[0] = "Cascading Style Sheets";
 answers[1] = "Dynamic HTML";
 answers[2] = "Netscape";
 answers[3] = "Common Gateway Interface";
+//Hello! this is Ashley!
 
 // Do not change anything below here ... /*
 function getScore(form) 
