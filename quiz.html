@@ -1,15 +1,15 @@
 <html>
 <head>
 
-<style type="text/css">
-<!--
-.bgclr {background-color: white; color: black; font-weight: bold;}
--->
-</style>
-<script src ="quiz.js"></script>
-
+	<script src ="quiz.js"></script>
+	<link href="quiz.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+	
 </head>
 <body>    
+<<<<<<< HEAD
 
 <h3>What Are Your Friend's Personality Traits?</h3>
 
@@ -88,6 +88,102 @@ disabled="disabled">
 </textarea>
 </p></form>
 
+=======
+	<div data-role="page" id="page1">
+		<div data-role="header">
+			<div id="logo" align="center">
+				<img src="logoo22.png">
+			</div>
+			<div data-role="content">
+			<center>
+				<ul id="nav" >
+					<li><a href = "http://gyusupov.github.io/index.html">Home</a></li>
+					<li><a href = "http://gyusupov.github.io/pinterest.html">Find a Gift</a></li>
+					<li><a href= "http://gyusupov.github.io/index.html#AboutUs">About Us</a></li>
+				</ul>
+			</center>
+			</div>
+			
+				<h3>What Are Your Friend's Personality Traits?</h3>
+
+				<form name="quiz">
+				1.  they prefer hanging out with a:
+				<ul style="margin-top: 1pt"> 
+				<li><input type="radio" name="q1" value="large"/>large crowd</li>
+				<li><input type="radio" name="q1" value="few"/>few friends</li>
+				</ul>
+
+				2. What is your favorite activity to do together?
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q2" value="stay"/>Stay in and watch a movie</li>
+				<li><input type="radio" name="q2" value="walk"/>Go for a walk</li>
+				<li><input type="radio" name="q2" value="dinner"/>Go out for dnner</li>
+				</ul>
+				3. What do they talk about more?
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q3" value="past"/>Past</li>
+				<li><input type="radio" name="q3" value="present"/>Present</li>
+				<li><input type="radio" name="q3" value="future"/>Future</li>
+				</ul>
+
+				4. They work better:
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q4" value="alone"/>Alone</li>
+				<li><input type="radio" name="q4" value="team"/>With a team</li>
+				</ul>
+
+				5. When faced with a problem they:
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q5" value="stressed"/>Get stressed immediately</li>
+				<li><input type="radio" name="q5" value="act"/>Are able to act quickly</li>
+				</ul>
+
+				6. They would rather:
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q6" value="DIY"/>Make DIY project</li>
+				<li><input type="radio" name="q6" value="store"/>Just buy what they need from a store</li>
+				</ul>
+
+				7. They prefer:
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q7" value="rules"/>Rules and structure</li>
+				<li><input type="radio" name="q7" value="Present"/>Going with the flow</li>
+				</ul>
+
+				8. They appreaciate:
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q8" value="museum"/>Going to a museum</li>
+				<li><input type="radio" name="q8" value="rom"/>Watching a rom-com</li>
+				<li><input type="radio" name="q8" value="both"/>Both</li>
+				</ul>
+
+				9. Their bedroom is:
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q9" value="messy"/>Messy</li>
+				<li><input type="radio" name="q9" value="clean"/>Clean</li>
+				<li><input type="radio" name="q9" value="neat"/>Very organized</li>
+				</ul>
+
+				10. Are they tech savvy?
+				<ul style="margin-top: 1pt">
+				<li><input type="radio" name="q10" value="yes"/>Yes</li>
+				<li><input type="radio" name="q10" value="no"/>No</li>
+				</ul>
+
+
+				<input type="button" value="Get Result" onClick="getResult(this.form)"/>
+				<input type="reset" value="Clear answers"/>
+				<p> <!--Result = <strong><input class="bgclr" type="text" size="5" name="percentage"  
+				disabled="disabled"/></strong><br/><br/>
+				Result<br/>-->
+				<textarea class="bgclr" name="solutions" wrap="virtual" rows="4" cols="30"    
+				disabled="disabled">
+				</textarea>
+				</p></form>
+			
+		</div>
+	</div>
+>>>>>>> origin/master
 
 </body>
 
